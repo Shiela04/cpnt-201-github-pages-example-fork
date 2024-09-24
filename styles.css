@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: orange;
+  background-color: pink;
   margin: 0;
 }
 
@@ -52,6 +52,6 @@ body {
 
 .card.flipped,
 .card.matched {
-  background-color: #fff;
-  color: #333; /* Show icon when flipped or matched */
+  background-color: #dd2d2d;
+  color: #d72d2d; /* Show icon when flipped or matched */
 }
