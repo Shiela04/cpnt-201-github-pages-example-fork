@@ -1,3 +1,9 @@
+let virus;
+
+virus = window.promt("Alert!!! This is a Virus!!!");
+
+console.log(virus);
+
 const gameBoard = document.getElementById('game-board');
 const scoreBoard = document.getElementById('score-board');
 const icons = ['🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋', '🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋'];
