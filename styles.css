@@ -55,3 +55,15 @@ body {
   background-color: #fff;
   color: #333; /* Show icon when flipped or matched */
 }
+
+.hacker {
+  padding: 8px;
+  margin-top: 20px;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+.hacker:hover {
+  background-color: green;
+  color: aqua;
+}
