@@ -55,3 +55,17 @@ body {
   background-color: #fff;
   color: #333; /* Show icon when flipped or matched */
 }
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #8a2525;
+  text-align: center;
+  color: #fff;
+  a:link {
+    color: #fff;
+  }
+  a:visited {
+    color: #fff;
+  }
+}
