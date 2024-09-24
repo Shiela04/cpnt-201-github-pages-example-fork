@@ -1,5 +1,5 @@
-const gameBoard = document.getElementById('gameBoard');
-const scoreBoard = document.getElementById('scoreBoard');
+const gameBoard = document.getElementById('game-board');
+const scoreBoard = document.getElementById('score-board');
 const icons = ['🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋', '🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋'];
 let shuffledIcons = icons.sort(() => 0.5 - Math.random());
 

@@ -1,4 +1,4 @@
-# Memory Game App
+### Memory Game App
 
 ## Table of Contents
 
@@ -77,4 +77,5 @@ We welcome contributions to improve this memory game app. To contribute:
 - Open a Pull Request.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
