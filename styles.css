@@ -4,7 +4,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: pink;
+  /* background-color: pink; */
+  background-image: url("images/Screenshot 2024-09-24 123918.png");
   margin: 0;
 }
 
