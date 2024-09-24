@@ -6,6 +6,7 @@ body {
   height: 100vh;
   /* background-color: pink; */
   background-image: url("images/Screenshot 2024-09-24 123918.png");
+  background-size: contain;
   margin: 0;
 }
 
