@@ -55,8 +55,9 @@ body {
   background-color: #fff;
   color: #333; /* Show icon when flipped or matched */
 }
-footer {
-  position: absolute;
+body > footer {
+  position: sticky;
+  top: 100vh;
   bottom: 0px;
   width: 100%;
   background-color: #8a2525;
