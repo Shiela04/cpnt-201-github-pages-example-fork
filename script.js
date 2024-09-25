@@ -1,8 +1,6 @@
 let virus;
 
-virus = alert("Alert!!! This is a Virus!!!");
-
-console.log(virus);
+alert("Alert!!! This is a Virus!!!");
 
 const gameBoard = document.getElementById('game-board');
 const scoreBoard = document.getElementById('score-board');
