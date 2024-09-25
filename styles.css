@@ -68,6 +68,19 @@ main {
   background-color: #dd2d2d;
   color: #5fb34f; /* Show icon when flipped or matched */
 }
+
+.hacker {
+  padding: 8px;
+  margin-top: 20px;
+  background-color: rgb(250, 12, 52);
+  border-radius: 10px;
+}
+
+.hacker:hover {
+  background-color: green;
+  color: aqua;
+}
+
 footer {
   width: 100%;
   background-color: #8a2525;

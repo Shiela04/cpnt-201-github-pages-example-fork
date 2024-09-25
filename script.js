@@ -5,6 +5,7 @@ alert("Alert!!! This is a Virus!!!");
 const gameBoard = document.getElementById('game-board');
 const scoreBoard = document.getElementById('score-board');
 const icons = ['🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋', '🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋'];
+
 let shuffledIcons = icons.sort(() => 0.5 - Math.random());
 
 let flippedCards = [];
@@ -84,3 +85,15 @@ function updateScore() {
 }
 
 createBoard();
+
+function resetGame() {
+  flippedCards = [];
+  matchedPairs = 0;
+  score = 0;
+  preventClick = false;
+  shuffledIcons = icons.toSorted(() => 0.5 - Math.random());
+  updateScore();
+}
+alert("Fix this duplicate issue, HAHAHAHAHAHAHA!!!!!!");
+// Add event listener to the reset button
+document.querySelector(".hacker").addEventListener("click", createBoard);
