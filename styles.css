@@ -4,7 +4,9 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: pink;
+  /* background-color: pink; */
+  background-image: url("images/Screenshot 2024-09-24 123918.png");
+  background-size: contain;
   margin: 0;
 }
 
@@ -52,8 +54,8 @@ body {
 
 .card.flipped,
 .card.matched {
-  background-color: #fff;
-  color: #333; /* Show icon when flipped or matched */
+  background-color: #dd2d2d;
+  color: #5fb34f; /* Show icon when flipped or matched */
 }
 footer {
   position: absolute;
