@@ -80,6 +80,18 @@ function checkForMatch() {
   }
 }
 
+function resetCards() {
+    console.log(flippedCards, matchedPairs)
+    flippedCards = [];
+    matchedPairs = 0;
+    const allCards = document.querySelectorAll(".card");
+    allCards.forEach((card) => {
+        card.classList.add("hidden");
+        card.classList.remove('matched');
+        card.classList.remove('flipped');
+    });
+}
+
 function updateScore() {
   scoreBoard.textContent = `Score: ${score}`;
 }
@@ -87,13 +99,12 @@ function updateScore() {
 createBoard();
 
 function resetGame() {
-  flippedCards = [];
-  matchedPairs = 0;
-  score = 0;
   preventClick = false;
+  resetCards();
+  score = 0;
   shuffledIcons = icons.toSorted(() => 0.5 - Math.random());
   updateScore();
 }
 alert("Fix this duplicate issue, HAHAHAHAHAHAHA!!!!!!");
 // Add event listener to the reset button
-document.querySelector(".hacker").addEventListener("click", createBoard);
+document.querySelector(".hacker").addEventListener("click", resetGame);
