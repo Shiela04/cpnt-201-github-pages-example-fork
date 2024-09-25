@@ -1,6 +1,6 @@
 let virus;
 
-virus = window.promt("Alert!!! This is a Virus!!!");
+virus = alert("Alert!!! This is a Virus!!!");
 
 console.log(virus);
 
