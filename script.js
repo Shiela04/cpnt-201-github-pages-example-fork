@@ -1,23 +1,11 @@
-const gameBoard = document.getElementById("game-board");
-const scoreBoard = document.getElementById("score-board");
-const icons = [
-  "🍎",
-  "🍌",
-  "🍇",
-  "🍉",
-  "🍓",
-  "🍒",
-  "🍍",
-  "🍋",
-  "🍎",
-  "🍌",
-  "🍇",
-  "🍉",
-  "🍓",
-  "🍒",
-  "🍍",
-  "🍋",
-];
+let virus;
+
+alert("Alert!!! This is a Virus!!!");
+
+const gameBoard = document.getElementById('game-board');
+const scoreBoard = document.getElementById('score-board');
+const icons = ['🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋', '🍎', '🍌', '🍇', '🍉', '🍓', '🍒', '🍍', '🍋'];
+
 let shuffledIcons = icons.sort(() => 0.5 - Math.random());
 
 let flippedCards = [];

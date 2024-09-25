@@ -3,13 +3,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: pink;
+  height: 100%;
+  /* background-color: pink; */
+  background-image: url("images/Screenshot 2024-09-24 123918.png");
+  background-size: contain;
   margin: 0;
+  color: #fff
 }
-
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: #8a2525;
+  color: #fff;
+  padding: 50px;
+}
 #score-board {
-  font-size: 24px;
+  background-color: #8a2525;
+  padding: 50px;
+  font-size: 48px;
   margin-bottom: 20px;
 }
 
@@ -17,6 +29,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 100px);
   grid-gap: 10px;
+  margin-bottom: 50px;
 }
 
 .icon-image-hidden {
@@ -52,8 +65,8 @@ body {
 
 .card.flipped,
 .card.matched {
-  background-color: #fff;
-  color: #333; /* Show icon when flipped or matched */
+  background-color: #dd2d2d;
+  color: #5fb34f; /* Show icon when flipped or matched */
 }
 
 .hacker {
@@ -67,3 +80,17 @@ body {
   background-color: green;
   color: aqua;
 }
+
+footer {
+  width: 100%;
+  background-color: #8a2525;
+  text-align: center;
+  color: #fff;
+}
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+
