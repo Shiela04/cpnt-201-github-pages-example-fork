@@ -64,10 +64,11 @@ footer {
   background-color: #8a2525;
   text-align: center;
   color: #fff;
-  a:link {
-    color: #fff;
-  }
-  a:visited {
-    color: #fff;
-  }
 }
+a:link {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+
