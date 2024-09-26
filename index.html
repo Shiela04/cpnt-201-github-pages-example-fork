@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div class="header">
+  <head>
+    <meta name="description" content="Simple memory game" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/cat.jpg" />
+    <title>Fruit Ninja</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+         <div class="header">
     <h1>The Kool Aid Man</h1>
     <p>
       The Kool Aid Man is very cool and he is best friends with the Muffin Man
     </p>
   </div>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Memory Game</title>
-    <link rel="icon" type="image/x-icon" href="/images/cat.jpg" />
-    <link rel="stylesheet" href="styles.css" />
-    </head>
-  <body>
-    <h1>Memory Game</h1>
-        <nav></nav>
+    <main>
+        <h1>Memory Game</h1>
+        <nav>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -23,7 +25,6 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
         <section id="home">
             <h1>Welcome to Home</h1>
         </section>
@@ -36,22 +37,34 @@
         <section id="contact">
             <h1>Contact Us</h1>
         </section>
-
+    
         <h1>Game Instructions</h1>
-    <ol>
-        <li>At the start of the game, all cards are visible for 5 seconds to help you memorize their positions.</li>
-        <li>After 5 seconds, the cards will flip over and become hidden.</li>
-        <li>Click on a card to reveal its icon and try to find its matching pair.</li>
-        <li>If two flipped cards match, they will remain visible, and you score 5 points.</li>
-        <li>If the cards do not match, they will flip back over after a short delay.</li>
-        <li>The game ends when all pairs are matched, and your score will be displayed.</li>
-    </ol>
-    <link rel="icon" type="image/x-icon" href="/images/cat.jpg" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-    <body>
+        <ol>
+            <li>At the start of the game, all cards are visible for 5 seconds to help you memorize their positions.</li>
+            <li>After 5 seconds, the cards will flip over and become hidden.</li>
+            <li>Click on a card to reveal its icon and try to find its matching pair.</li>
+            <li>If two flipped cards match, they will remain visible, and you score 5 points.</li>
+            <li>If the cards do not match, they will flip back over after a short delay.</li>
+            <li>The game ends when all pairs are matched, and your score will be displayed.</li>
+        </ol>
+    </main>
     <div id="score-board">Score: 0</div>
     <div class="game-board" id="game-board"></div>
+    <button class="hacker">I am the Hacker!!! Reset Game Now!!!</button>
+    <footer>
+        <p>2024 Copyright Memory Game. All Rights Reserved.</p>
+        <p>
+        <a href="http://127.0.0.1:3000/help.html" style="color: white">Help</a>
+        </p>
+        <h1>This is the footer</h1>
+        <p>
+        <a href="https://www.paypal.com/ca/home"
+            >Please consider supporting us
+        </a>
+        </p>
+        <p> 2024 Copyright Memory Game. All Rights Reserved.</p>
+        <p><a href= "Help" style="color:white">Help</a></p>
+    </footer>
     <script src="script.js"></script>
   </body>
   </body>
