@@ -70,6 +70,7 @@ This is a simple, interactive memory game built using HTML, CSS, and JavaScript.
 We welcome contributions to improve this memory game app. To contribute:
 
 - Fork the repository.
+- Clone the forked repository to your local machine.
 - Create a new branch (feature/new-feature).
 - Make your changes.
 - Commit your changes (git commit -m 'Add new feature').
